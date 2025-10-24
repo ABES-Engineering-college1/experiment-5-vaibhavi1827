@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <h1 align="Center">Student Registration Form</h1><hr>
+    <form action="./response.html" target="_blank" name="Student Registration Form" method="post">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required/><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter valid email address" required/><br><br>
+        <label for="pass">Password:</label>
+        <input type="pass" id="password" name="password" placeholder="Enter your password" required/><br><br>
+        <label for="gender">Gender</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <lable for="male">Male</lable>
+        <input type="radio" id="female" name="gender" value="female" required>
+        <lable for="female">Female</lable>
+        <input type="radio" id="other" name="gender" value="walmart bag" required>
+        <lable for="other">Other</lable><br><br>
+        <label for="course">Select Course:</label>
+        <select id="courses" name="courses">
+            <option value="none">Select</option>
+            <option value="B.tech">B.Tech</option>
+            <option value="M.Tech">M.tech</option>
+            <option value="BSA">BSA</option>
+            <option value="B.Com">B.Com</option>
+        </select><br><br>
+        <label for="contact number">Contact No:</label>    
+        <input type="tel" id="tel" name="tel" placeholder="Enter phone number:" required/><br><br>
+        <label for="Address">Address:</label><br>
+        <textarea id="address" name="address" rows="4" cols="30" placeholder="Enter your address" required></textarea><br><br>
+        <input type="submit" value="Register"/>
+        <input type="Reset" value="Clear"/><hr>
+    </form>
+    <p align="Center">&copy;2025 Student Registration Portal</p>  
+</body>
+</html>
